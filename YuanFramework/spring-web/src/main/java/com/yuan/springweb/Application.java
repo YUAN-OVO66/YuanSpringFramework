@@ -1,13 +1,11 @@
-package com.yuan.yuanframework;
+package com.yuan.springweb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class YuanFrameworkApplication {
-
+public class Application {
     public static void main(String[] args) {
-        SpringApplication.run(YuanFrameworkApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
-
 }

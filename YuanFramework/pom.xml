@@ -5,8 +5,16 @@
     <groupId>com.yuan</groupId>
     <artifactId>YuanFramework</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>YuanFramework</name>
     <description>YuanFramework</description>
+    <modules>
+        <module>spring-common</module>
+        <module>spring-system</module>
+        <module>spring-ai</module>
+        <module>spring-web</module>
+        <module>spring-auth</module>
+    </modules>
     <properties>
         <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
